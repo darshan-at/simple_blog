@@ -26,6 +26,13 @@ body {
 a.nav-link{
     color:black;
 }
+@media (max-width:465px)
+{
+    .navbar-brand{
+        font-size: 1.25rem;
+        margin-right: 0;
+    }
+}
 /*Middle Section*/
 .container {
     padding: 3rem;
