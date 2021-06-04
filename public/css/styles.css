@@ -1,0 +1,55 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    word-wrap: break-word;
+}
+
+/*NaviGation bar*/
+.container-fluid {
+    background-color: lightgray;
+    font-family: 'Roboto Mono', monospace;
+    padding: 2rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.nav-item {
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+a.nav-link{
+    color:black;
+}
+/*Middle Section*/
+.container {
+    padding: 3rem;
+    margin: 0;
+}
+
+.heading {
+    margin-bottom: 2rem;
+}
+
+/* Compose Page */
+.post-btn {
+    width: 100%;
+    margin-top: 3rem;
+}
+label{
+    font-size: 1.5rem;
+ }
+/*Footer*/
+footer{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+    background-color: rgb(75, 199, 75);   
+    margin-top: auto;
+    padding: 1.5rem;
+}

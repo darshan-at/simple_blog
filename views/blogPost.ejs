@@ -1,0 +1,13 @@
+<%- include('partials/header') -%>
+
+<div class="container">
+	<h1 class="heading"><%= heading %></h1>
+	<p><%= content %></p>
+	<form method="post" action="/delete">
+	<button type="submit" name="submit" value="<%= heading %>" class="btn btn-danger btn-lg rounded shadow post-btn">Delete</button>
+</form>
+</div>
+<%- include('partials/footer') -%>
+<!-- <span>
+	<form class=""></form><i class="fas fa-trash"></i></form>
+	</span> -->
